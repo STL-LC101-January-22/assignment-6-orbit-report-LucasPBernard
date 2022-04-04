@@ -15,6 +15,8 @@ export class Satellite {
    }
 	
 	isSpaceDebris(): boolean {
+		//*ngIf = this.type==='Space Debris'; else returnFalse
+
 		return true;
    }
 
